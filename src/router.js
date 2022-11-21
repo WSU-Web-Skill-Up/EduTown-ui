@@ -57,6 +57,15 @@ export default new Router({
                 default: Profile,
                 footer: AppFooter
             }
+        },
+        {
+            path: "/board/recruit",
+            name: "recruit",
+            components: {
+                header: AppHeader,
+                default: Profile,
+                footer: AppFooter
+            }
         }
     ],
     scrollBehavior: to => {
