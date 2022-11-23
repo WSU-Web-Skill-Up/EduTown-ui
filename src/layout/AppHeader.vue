@@ -20,7 +20,7 @@
                 <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-ui-04 d-lg-none"></i>
-                        <span class="nav-link-inner--text">Components</span>
+                        <span class="nav-link-inner--text">WannaGo란?</span>
                     </a>
                     <div class="dropdown-menu-inner">
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
@@ -50,12 +50,23 @@
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-collection d-lg-none"></i>
-                        <span class="nav-link-inner--text">Examples</span>
+                        <span class="nav-link-inner--text">주변공연정보</span>
                     </a>
-                    <router-link to="/landing" class="dropdown-item">Landing</router-link>
-                    <router-link to="/profile" class="dropdown-item">Profile</router-link>
-                    <router-link to="/login" class="dropdown-item">Login</router-link>
-                    <router-link to="/register" class="dropdown-item">Register</router-link>
+                    <router-link to="/landing" class="dropdown-item">지역별 공연</router-link>
+                    <router-link to="/profile" class="dropdown-item">뮤지컬</router-link>
+                    <router-link to="/login" class="dropdown-item">콘서트</router-link>
+                    <router-link to="/login" class="dropdown-item">연극</router-link>
+                    <router-link to="/register" class="dropdown-item">전시회</router-link>
+                    <router-link to="/register" class="dropdown-item">기타</router-link>
+                </base-dropdown>
+                <base-dropdown tag="li" class="nav-item">
+                    <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
+                        <i class="ni ni-collection d-lg-none"></i>
+                        <span class="nav-link-inner--text">게시판</span>
+                    </a>
+                    <router-link to="/landing" class="dropdown-item">자유게시판</router-link>
+                    <router-link to="/login" class="dropdown-item">공연모집게시판</router-link>
+                    <router-link to="/register" class="dropdown-item">거래게시판</router-link>
                 </base-dropdown>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
@@ -88,12 +99,14 @@
                     </a>
                 </li>
                 <li class="nav-item d-none d-lg-block ml-lg-4">
-                    <a href="https://www.creative-tim.com/product/vue-argon-design-system" target="_blank" rel="noopener"
+                    <a target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
-                <span class="btn-inner--icon">
-                  <i class="fa fa-cloud-download mr-2"></i>
-                </span>
-                        <span class="nav-link-inner--text">Download</span>
+                        <span class="btn-inner--icon">
+                        <!-- <i class="fa fa-cloud-download mr-2"></i> -->
+                        </span>
+                    <!-- <router-link to="/login" class="dropdown-item">공연모집게시판</router-link> -->
+                        
+                        <span to="/login" class="dropdown-item">로그인</span>
                     </a>
                 </li>
             </ul>
