@@ -4,6 +4,8 @@ import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 import Components from "./views/Components.vue";
 import Landing from "./views/Landing.vue";
+import Intro from "./views/Intro/Introduce.vue";
+import Recruit from "./views/board/RecruitBoard.vue"
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
@@ -63,7 +65,16 @@ export default new Router({
             name: "recruit",
             components: {
                 header: AppHeader,
-                default: Profile,
+                default: Recruit,
+                footer: AppFooter
+            }
+        },
+        {
+            path: "/intro",
+            name: "intro",
+            components: {
+                header: AppHeader,
+                default: Intro,
                 footer: AppFooter
             }
         }

@@ -19,12 +19,11 @@
                     <div class="col px-0">
                         <div class="row">
                             <div class="col-lg-6">
-                                <h1 class="display-3  text-white"> WannaGo
-                                    <span> 함께 가요 게시판</span>
+                                <h1 class="display-3  text-white">WannaGo
+                                    <span>WannaGo란?</span>
                                 </h1>
-                                <p class="lead  text-white"> 공연, 관람 등 마음 맞는 회원들 끼리
-                                    함께 즐길 수 있도록 멤버를 모집하는 게시판
-                                </p>
+                                <p class="lead  text-white"> 연극, 공연, 콘서트 등 다양한 문화생활 관련 정보를 제공하고
+                                    그를 바탕으로 서비스를 제공하는 플랫폼 서비스 입니다.</p>
                                 <div class="btn-wrapper">
                                     <base-button tag="a"
                                                  href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
@@ -48,87 +47,7 @@
             </section>
             <!-- 1st Hero Variation -->
         </div>
-        <section class="section section-lg">
-            <div class="container">
-                <div class="row row-grid align-items-center">                        
-                    <table >
-                        <colgroup>
-                            <col style="width: 100px" />
-                            <col />
-                            <col style="width: 120px" />
-                            <col style="width: 120px" />
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th>No</th>
-                                <th class="txtLeft">게시판 제목</th>
-                                <th>작성일</th>
-                                <th>조회수</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td> 0 </td>
-                                <td> 지금은 프론트만 바꾸는중 </td>
-                                <td> 2022-11-28 </td>
-                                <td> 22 </td>
-                            </tr>
-
-                            <tr>
-                                <td> 1 </td>
-                                <td> 동방신기 콘서트 가실분 구합니다 </td>
-                                <td> 2022-11-28 </td>
-                                <td> 22 </td>
-                            </tr>
-
-                            <tr>
-                                <td> 2 </td>
-                                <td> 신화 콘서트 가실분 구합니다 </td>
-                                <td> 2022-11-28 </td>
-                                <td> 22 </td>
-                            </tr>
-
-                            <tr>
-                                <td> 3 </td>
-                                <td> 방탄 콘서트 가실분 구합니다 </td>
-                                <td> 2022-11-28 </td>
-                                <td> 22 </td>
-                            </tr>
-
-                            <tr>
-                                <td> 4 </td>
-                                <td> 에스파 콘서트 가실분 구합니다 </td>
-                                <td> 2022-11-28 </td>
-                                <td> 22 </td>
-                            </tr>
-                        </tbody>
-                        <!-- <tbody>
-                            <tr v-if="pageable.totalElements === 0">
-                                <td colspan="4">검색한 결과가 없습니다</td>
-                            </tr>
-                            <tr v-else v-for="(faq, index) in faqs" v-bind:key="faq.id">
-                                <td>{{ count(index) }}</td>
-                                <td class="txtLeft">
-                                    <div style="display: inline-block;" v-if="faq.depth > 0" v-html="tabSize(faq.depth)"></div>
-                                    <span class="txtEllipse" v-if="faq.open_target === 'NONE'">
-                                        <i class="lockIcon"><span class="hiddenTxt">자물쇠 아이콘</span></i>
-                                        <a @click="faqDetail(faq.id, index)">비밀글입니다.</a>
-                                    </span>
-                                    <span class="txtEllipse" v-else>
-                                        <a @click="faqDetail(faq.id, index)">{{faq.title | htmlUnEscapeDisplay}}</a>
-                                    </span>
-                                    <div style="display: inline-block; color: #7A82DD;" v-if="faq.replyed_cnt > 0">&nbsp;[{{ faq.replyed_cnt }}]</div>
-                                </td>
-                                <td>{{ faq.created_at }}</td>
-                                <td>{{ faq.views }}</td>
-                            </tr>
-                        </tbody> -->
-                    </table>
-                </div>
-            </div>
-        </section>
-
-        <!-- <section class="section section-lg pt-lg-0 mt--200">
+        <section class="section section-lg pt-lg-0 mt--200">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
@@ -188,9 +107,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-
-
+        </section>
         <section class="section section-lg">
             <div class="container">
                 <div class="row row-grid align-items-center">
@@ -330,9 +247,8 @@
             <div class="container">
                 <div class="row justify-content-center text-center mb-lg">
                     <div class="col-lg-8">
-                        <h2 class="display-3">The amazing Team</h2>
-                        <p class="lead text-muted">According to the National Oceanic and Atmospheric Administration,
-                            Ted, Scambos, NSIDClead scentist, puts the potentially record maximum.</p>
+                        <h2 class="display-3">WannaGo Team</h2>
+                        <p class="lead text-muted">KT DS 22.07.07 입사.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -343,7 +259,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Ryan Tompson</span>
+                                    <span class="d-block mb-1">김예림</span>
                                     <small class="h6 text-muted">Web Developer</small>
                                 </h5>
                                 <div class="mt-3">
@@ -364,7 +280,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Romina Hadid</span>
+                                    <span class="d-block mb-1">박유진</span>
                                     <small class="h6 text-muted">Marketing Strategist</small>
                                 </h5>
                                 <div class="mt-3">
@@ -385,7 +301,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">Alexander Smith</span>
+                                    <span class="d-block mb-1">윤지혜</span>
                                     <small class="h6 text-muted">UI/UX Designer</small>
                                 </h5>
                                 <div class="mt-3">
@@ -406,7 +322,7 @@
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
                                 <h5 class="title">
-                                    <span class="d-block mb-1">John Doe</span>
+                                    <span class="d-block mb-1">정찬호</span>
                                     <small class="h6 text-muted">Founder and CEO</small>
                                 </h5>
                                 <div class="mt-3">
@@ -584,7 +500,7 @@
 
 <script>
 export default {
-  name: "home",
+  name: "intro",
   components: {}
 };
 </script>

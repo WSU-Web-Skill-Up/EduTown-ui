@@ -23,17 +23,21 @@
                         <span class="nav-link-inner--text">WannaGo란?</span>
                     </a>
                     <div class="dropdown-menu-inner">
-                        <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
-                           class="media d-flex align-items-center">
+                        <!-- <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+                           class="media d-flex align-items-center"> -->
+                        <router-link to="/Intro" class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                                 <i class="ni ni-spaceship"></i>
                             </div>
                             <div class="media-body ml-3">
-                                <h6 class="heading text-primary mb-md-1">Getting started</h6>
-                                <p class="description d-none d-md-inline-block mb-0">Get started with Bootstrap, the
-                                    world's most popular framework for building responsive sites.</p>
+                                <h6 class="heading text-primary mb-md-1">WannaGo 소개</h6>
+                                <p class="description d-none d-md-inline-block mb-0">WannaGo를 자세히 알고싶다면 
+                                    눌러주세요.
+                                </p>
                             </div>
-                        </a>
+                        </router-link>
+                            <!--  <router-link to="/locshow" class="dropdown-item">지역별 공연</router-link> -->
+                        <!-- </a> -->
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
                            class="media d-flex align-items-center">
                             <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
@@ -65,7 +69,7 @@
                         <span class="nav-link-inner--text">게시판</span>
                     </a>
                     <router-link to="/freeboard" class="dropdown-item">자유게시판</router-link>
-                    <router-link to="/recruitboard" class="dropdown-item">공연모집게시판</router-link>
+                    <router-link to="/board/recruit" class="dropdown-item">공연모집게시판</router-link>
                     <router-link to="/dealboard" class="dropdown-item">거래게시판</router-link>
                 </base-dropdown>
             </ul>
@@ -101,14 +105,13 @@
                 <li class="nav-item d-none d-lg-block ml-lg-4">
                     <a target="_blank" rel="noopener"
                        class="btn btn-neutral btn-icon">
-                        <!-- <span class="btn-inner--icon"> -->
-                        <!-- <i class="fa fa-cloud-download mr-2"></i> -->
-                        <!-- </span> -->
-                    <!-- <router-link to="/login" class="dropdown-item">공연모집게시판</router-link> -->
-                        
-                        <!-- <span to="/login" class="dropdown-item">로그인</span> -->
-                        <span to="/login">로그인</span>
-
+                        <router-link to="/login">로그인</router-link>
+                    </a>
+                </li>
+                <li class="nav-item d-none d-lg-block ml-lg-2">
+                    <a target="_blank" rel="noopener"
+                       class="btn btn-neutral btn-icon">
+                        <router-link to="/register">회원가입</router-link>
                     </a>
                 </li>
             </ul>
